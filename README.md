@@ -18,7 +18,7 @@ Usando ✨**Lenguaje de Racket✨**resuelve los problemas que se presentan a con
 > La función **fahrenheit-to-celsius** toma como entrada una temperatura **f** en grados Fahrenheit y la convierte a su equivalente en grados Celsius usando la siguiente fórmula:
 
 <p align="center">
-  <img width="200" src="https://github.com/feraranas/Problemario-Programacion-Funcional/blob/secundario/1.png" alt="F1">
+  <img width="200" src="https://github.com/feraranas/EjerciciosProgramacionFuncional2/blob/secundario/1.png" alt="F1">
 </p>
 
 ### Ejemplos:
@@ -56,7 +56,7 @@ Usando ✨**Lenguaje de Racket✨**resuelve los problemas que se presentan a con
 > La función **roots** devuelve la raíz que resuelve una ecuación cuadrática a partir de sus tres coeficientes, a, b y c, que se reciben como entrada. Se debe usar la siguiente fórmula:
 
 <p align="center">
-  <img width="200" src="https://github.com/feraranas/Problemario-Programacion-Funcional/blob/secundario/2.png" alt="F1">
+  <img width="200" src="https://github.com/feraranas/EjerciciosProgramacionFuncional2/blob/secundario/2.png" alt="F1">
 </p>
 
 ### Ejemplos:
@@ -77,7 +77,7 @@ Usando ✨**Lenguaje de Racket✨**resuelve los problemas que se presentan a con
 > El índice de masa corporal, o BMI por sus siglas in inglés, se utiliza para determinar si la proporción de peso y altura de una persona es adecuada. El BMI se calcula usando la siguiente fórmula:
 
 <p align="center">
-  <img width="200" src="https://github.com/feraranas/Problemario-Programacion-Funcional/blob/secundario/3.png" alt="F1">
+  <img width="200" src="https://github.com/feraranas/EjerciciosProgramacionFuncional2/blob/secundario/3.png" alt="F1">
 </p>
 
 > Donde weight es el peso en kilogramos y height es la altura en metros. La siguiente tabla muestra cómo se clasifican los diferentes rangos del BMI:
@@ -120,7 +120,7 @@ Usando ✨**Lenguaje de Racket✨**resuelve los problemas que se presentan a con
 >  La función **factorial** toma un entero positivo n como su entrada y devuelve el factorial correspondiente, que matemáticamente se define así:
 
 <p align="center">
-  <img width="300" src="https://github.com/feraranas/Problemario-Programacion-Funcional/blob/secundario/4.png" alt="F1">
+  <img width="300" src="https://github.com/feraranas/EjerciciosProgramacionFuncional2/blob/secundario/4.png" alt="F1">
 </p>
 
 ### Ejemplos:
@@ -175,7 +175,7 @@ Usando ✨**Lenguaje de Racket✨**resuelve los problemas que se presentan a con
 > La función **fib** toma un entero positivo n como entrada y devuelve el elemento correspondiente de la secuencia de Fibonacci, que se define matemáticamente como:
 
 <p align="center">
-  <img width="400" src="https://github.com/feraranas/Problemario-Programacion-Funcional/blob/secundario/5.png" alt="F1">
+  <img width="400" src="https://github.com/feraranas/EjerciciosProgramacionFuncional2/blob/secundario/5.png" alt="F1">
 </p>
 
 ### Ejemplos:
@@ -303,7 +303,7 @@ Usando ✨**Lenguaje de Racket✨**resuelve los problemas que se presentan a con
 > La función **dot-product** toma dos entradas: las listas a y b. Devuelve el resultado de realizar el producto punto de a por b. El producto punto es una operación algebraica que toma dos secuencias de números de igual longitud y devuelve un solo número que se obtiene multiplicando los elementos en la misma posición y luego sumando esos productos. Su fórmula es:
 
 <p align="center">
-  <img width="400" src="https://github.com/feraranas/Problemario-Programacion-Funcional/blob/secundario/6.png" alt="F1">
+  <img width="400" src="https://github.com/feraranas/EjerciciosProgramacionFuncional2/blob/secundario/6.png" alt="F1">
 </p>
 
 ### Ejemplos:
@@ -325,7 +325,7 @@ Usando ✨**Lenguaje de Racket✨**resuelve los problemas que se presentan a con
 > La función **average** recibe una lista de números lst como entrada. Devuelve la media aritmética de los elementos contenidos en lst, o 0 si lst está vacía. La media aritmética (x ̄) se define como:
 
 <p align="center">
-  <img width="200" src="https://github.com/feraranas/Problemario-Programacion-Funcional/blob/secundario/7.png" alt="F1">
+  <img width="200" src="https://github.com/feraranas/EjerciciosProgramacionFuncional2/blob/secundario/7.png" alt="F1">
 </p>
 
 ### Ejemplos:
@@ -349,7 +349,7 @@ Usando ✨**Lenguaje de Racket✨**resuelve los problemas que se presentan a con
 > La función **standard-deviation** recibe una lista de números lst como entrada. Devuelve la desviación estándar de la població́n de los elementos contenidos en lst, o 0 si lst está vacia. La desviación estándar de la población (σ) se define como:
 
 <p align="center">
-  <img width="200" src="https://github.com/feraranas/Problemario-Programacion-Funcional/blob/secundario/8.png" alt="F1">
+  <img width="200" src="https://github.com/feraranas/EjerciciosProgramacionFuncional2/blob/secundario/8.png" alt="F1">
 </p>
 
 ### Ejemplos:
