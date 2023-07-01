@@ -4,14 +4,17 @@
 # _Programación Funcional_
 
 ## Solucion:
-El archivo "ProblemarioFuncional.rkt" contiene la solución a los 20 problemas.
+El archivo "problemarioFunctional" contiene la solución a los 20 problemas.
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+Resueltos en
+<ul>
+  <li> ✨**Racket✨**
+  <li> 🌀**Javascript🌀**
+</ul>
+
 ### Instrucciones
-
-Usando ✨**Lenguaje de Racket✨**resuelve los problemas que se presentan a continuación.
-
 
 ## 1.
 
