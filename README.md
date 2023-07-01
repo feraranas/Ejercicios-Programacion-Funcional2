@@ -4,7 +4,7 @@
 # _Programación Funcional_
 
 ## Solucion:
-El archivo "problemarioFunctional" contiene la solución a los 20 problemas.
+El archivo <a href="problemario.mjs">problemario.mjs</a> contiene la solución a los 20 problemas.
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
