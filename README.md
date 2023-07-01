@@ -1,14 +1,17 @@
 # Ejercicios de Programacion Funcional
+
 20 Ejercicios implementados con Programación de Paradigma Funcional
 
 # _Programación Funcional_
 
 ## Solucion:
+
 El archivo "problemarioFunctional" contiene la solución a los 20 problemas.
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 Resueltos en
+
 <ul>
   <li> ✨**Racket✨**
   <li> 🌀**Javascript🌀**
@@ -39,18 +42,18 @@ Resueltos en
 
 ## 2.
 
->La función **sign** recibe como entrada un valor entero **n**. Devuelve -1 si n es negativo, 1 si n es positivo mayor que cero, o 0 si n es cero.
+> La función **sign** recibe como entrada un valor entero **n**. Devuelve -1 si n es negativo, 1 si n es positivo mayor que cero, o 0 si n es cero.
 
 ### Ejemplos:
 
 ```sh
-(sign -5) 
+(sign -5)
 ⇒ -1
 
-(sign 10) 
+(sign 10)
 ⇒ 1
 
-(sign 0) 
+(sign 0)
 ⇒ 0
 ```
 
@@ -65,13 +68,13 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(roots 2 4 2) 
+(roots 2 4 2)
 ⇒ -1
 
-(roots 1 0 0) 
+(roots 1 0 0)
 ⇒ 0
 
-(roots 4 5 1) 
+(roots 4 5 1)
 ⇒ -1/4
 ```
 
@@ -87,13 +90,13 @@ Resueltos en
 
 <br/>
 
-| Rango BMI | Descripción |
-| ------ | ------ |
-| BMI < 20 | underweight |
-| 20 ≤ BMI < 25 | normal |
-| 25 ≤ BMI < 30 | obese1 |
-| 30 ≤ BMI < 40 | obese2 |
-| 40 ≤ BMI | obese3 |
+| Rango BMI     | Descripción |
+| ------------- | ----------- |
+| BMI < 20      | underweight |
+| 20 ≤ BMI < 25 | normal      |
+| 25 ≤ BMI < 30 | obese1      |
+| 30 ≤ BMI < 40 | obese2      |
+| 40 ≤ BMI      | obese3      |
 
 <br/>
 
@@ -102,25 +105,25 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(bmi 45 1.7) 
+(bmi 45 1.7)
 ⇒ underweight
 
-(bmi 55 1.5) 
+(bmi 55 1.5)
 ⇒ normal
 
-(bmi 76 1.7) 
+(bmi 76 1.7)
 ⇒ obese1
 
-(bmi 81 1.6) 
+(bmi 81 1.6)
 ⇒ obese2
 
-(bmi 120 1.6) 
+(bmi 120 1.6)
 ⇒ obese3
 ```
 
 ## 5.
 
->  La función **factorial** toma un entero positivo n como su entrada y devuelve el factorial correspondiente, que matemáticamente se define así:
+> La función **factorial** toma un entero positivo n como su entrada y devuelve el factorial correspondiente, que matemáticamente se define así:
 
 <p align="center">
   <img width="300" src="https://github.com/feraranas/EjerciciosProgramacionFuncional2/blob/secundario/4.png" alt="F1">
@@ -129,10 +132,10 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(factorial 0) 
+(factorial 0)
 ⇒ 1
 
-(factorial 5) 
+(factorial 5)
 ⇒ 120
 
 (factorial 40)
@@ -146,35 +149,37 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(duplicate '()) 
+(duplicate '())
 ⇒ ()
 
-(duplicate '(1 2 3 4 5)) 
+(duplicate '(1 2 3 4 5))
 ⇒ (1 1 2 2 3 3 4 4 5 5)
 
 (duplicate '(a b c d e f g h))
 ⇒ (a a b b c c d d e e f f g g h h)
 ```
 
-## 7. 
+## 7.
 
 > La funcióon **pow** toma dos entradas como entrada: un número a y un entero positivo b. Devuelve el resultado de calcular a elevado a la potencia b.
 
 ### Ejemplos:
 
 ```sh
-(pow 5 0) 
+(pow 5 0)
 ⇒ 1
 
-(pow -5 3) 
+(pow -5 3)
 ⇒ -125
 
 (pow 15 12)
 ⇒ 129746337890625
 ```
+
 ### Ejemplos:
 
 ## 8.
+
 > La función **fib** toma un entero positivo n como entrada y devuelve el elemento correspondiente de la secuencia de Fibonacci, que se define matemáticamente como:
 
 <p align="center">
@@ -184,7 +189,7 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(fib 6) 
+(fib 6)
 ⇒ 8
 
 (map fib (range 10))
@@ -201,13 +206,13 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(enlist '()) 
+(enlist '())
 ⇒ ()
 
-(enlist '(a b c)) 
+(enlist '(a b c))
 ⇒ ((a) (b) (c))
 
-(enlist '((1 2 3) 4 (5) 7 8)) 
+(enlist '((1 2 3) 4 (5) 7 8))
 ⇒ (((1 2 3)) (4) ((5)) (7) (8))
 ```
 
@@ -218,13 +223,13 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(positives '()) 
+(positives '())
 ⇒ ()
 
-(positives '(12 -4 3 -1 -10 -13 6 -5)) 
+(positives '(12 -4 3 -1 -10 -13 6 -5))
 ⇒ '(12 3 6)
 
-(positives '(-4 -1 -10 -13 -5)) 
+(positives '(-4 -1 -10 -13 -5))
 ⇒ ()
 ```
 
@@ -235,13 +240,13 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(add-list '()) 
+(add-list '())
 ⇒ 0
 
-(add-list '(2 4 1 3)) 
+(add-list '(2 4 1 3))
 ⇒ 10
 
-(add-list '(1 2 3 4 5 6 7 8 9 10)) 
+(add-list '(1 2 3 4 5 6 7 8 9 10))
 ⇒ 55
 ```
 
@@ -252,13 +257,13 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(invert-pairs '()) 
+(invert-pairs '())
 ⇒ ()
 
-(invert-pairs '((a 1)(a 2)(b 1)(b 2))) 
+(invert-pairs '((a 1)(a 2)(b 1)(b 2)))
 ⇒ ((1 a)(2 a)(1 b)(2 b))
 
-(invert-pairs '((January 1)(February 2)(March 3))) 
+(invert-pairs '((January 1)(February 2)(March 3)))
 ⇒ ((1 January)(2 February)(3 March))
 ```
 
@@ -269,13 +274,13 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(list-of-symbols? '()) 
+(list-of-symbols? '())
 ⇒ #t
 
-(list-of-symbols? '(a b c d e)) 
+(list-of-symbols? '(a b c d e))
 ⇒ #t
 
-(list-of-symbols? '(a b c d 42 e)) 
+(list-of-symbols? '(a b c d 42 e))
 ⇒ #f
 ```
 
@@ -286,13 +291,13 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(swapper 1 2 '()) 
+(swapper 1 2 '())
 ⇒ ()
 
-(swapper 1 2 '(4 4 5 2 4 8 2 5 6 4 5 1 9 5 9 9 1 2 2 4)) 
+(swapper 1 2 '(4 4 5 2 4 8 2 5 6 4 5 1 9 5 9 9 1 2 2 4))
 ⇒ (4 4 5 1 4 8 1 5 6 4 5 2 9 5 9 9 2 1 1 4)
 
-(swapper 1 2 '(4 3 4 9 9 3 3 3 9 9 7 9 3 7 8 7 8 4 5 6)) 
+(swapper 1 2 '(4 3 4 9 9 3 3 3 9 9 7 9 3 7 8 7 8 4 5 6))
 ⇒ (4 3 4 9 9 3 3 3 9 9 7 9 3 7 8 7 8 4 5 6)
 
 (swapper 'purr
@@ -312,10 +317,10 @@ Resueltos en
 ### Ejemplos:
 
 ```sh
-(dot-product '() '()) 
+(dot-product '() '())
 ⇒ 0
 
-(dot-product '(1 2 3) '(4 5 6)) 
+(dot-product '(1 2 3) '(4 5 6))
 ⇒ 32
 
 (dot-product '(1.3 3.4 5.7 9.5 10.4)
@@ -337,7 +342,7 @@ Resueltos en
 (average '())
 ⇒ 0
 
-(average '(4)) 
+(average '(4))
 ⇒ 4
 
 (average '(5 6 1 6 0 1 2))
@@ -374,18 +379,18 @@ Resueltos en
 ## 18.
 
 > La función **replic** toma dos entradas: una lista lst y un número entero n, donde n ≥ 0. Devuelve una nueva
-lista que replica n veces cada elemento contenido en lst.
-
+> lista que replica n veces cada elemento contenido en lst.
 
 ### Ejemplos:
+
 ```sh
 (replic 7 '())
 ⇒ ()
 
-(replic 0 '(a b c)) 
+(replic 0 '(a b c))
 ⇒ ()
 
-(replic 3 '(a)) 
+(replic 3 '(a))
 ⇒ (a a a)
 
 (replic 4 '(1 2 3 4))
@@ -396,14 +401,13 @@ lista que replica n veces cada elemento contenido en lst.
 
 > La función **expand** toma una lista lst como entrada. Devuelve una lista donde el primer elemento de lst aparece una vez, el segundo elemento aparece dos veces, el tercer elemento aparece tres veces, y así sucesivamente.
 
-
 ### Ejemplos:
 
 ```sh
-(expand '()) 
+(expand '())
 ⇒ ()
 
-(expand '(a)) 
+(expand '(a))
 ⇒ (a)
 
 (expand '(1 2 3 4))
@@ -420,10 +424,10 @@ lista que replica n veces cada elemento contenido en lst.
 ### Ejemplos:
 
 ```sh
-(binary 0) 
+(binary 0)
 ⇒ ()
 
-(binary 30) 
+(binary 30)
 ⇒ (11110)
 
 (binary 45123)

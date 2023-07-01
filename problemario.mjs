@@ -86,7 +86,7 @@ export function fib(n, memo={}) {
      return memo[n];
 }
 console.log("8. FIBONACCI: ");
-console.log(fib(13)) 
+console.log(fib(13))
 
 /**************************
  * 9. ENLIST.
@@ -134,7 +134,7 @@ export function listOfSymbols(lst) {
      function isSymbol(value) {
           return typeof value === 'symbol';
      }
-     return lst.every(isSymbol);  
+     return lst.every(isSymbol);
 }
 console.log("13. LIST-OF-SYMBOLS: ");
 console.log(listOfSymbols([Symbol(), Symbol(), Symbol()])); // true
@@ -156,7 +156,7 @@ export function dotProduct(aLst, bLst) {
      if (aLst.length !== bLst.length) {
        throw new Error('Both lists must have the same length to calculate the dot product.');
      }
-   
+
      return aLst.reduce((sum, item, index) => {
        return sum + item * bLst[index];
      }, 0);
@@ -194,12 +194,12 @@ export function replic(n, lst) {
      if (n < 0) {
        throw new Error("n must be greater than or equal to 0");
      }
-   
+
      // Helper function to replicate an element n times
      function replicateElement(element) {
        return Array(n).fill(element);
      }
-   
+
      // Use the map function to replicate each element in lst
      return lst.flatMap(replicateElement);
    }
@@ -223,12 +223,12 @@ export function binary(n) {
      if (n === 0) {
        return [];
      }
-   
+
      // Helper function to convert a decimal number to binary representation
      function decimalToBinary(num) {
        return num.toString(2).split("").map(Number);
      }
-   
+
      return decimalToBinary(n);
 }
 console.log("20. BINARY: ");
