@@ -10,8 +10,7 @@ El archivo <a href="problemario.mjs">problemario.mjs</a> contiene la solución a
 
 Resueltos en
 <ul>
-  <li> ✨**Racket✨**
-  <li> 🌀**Javascript🌀**
+  <li> 🌀🌀🌀Javascript🌀🌀🌀
 </ul>
 
 ### Instrucciones
